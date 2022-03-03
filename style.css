@@ -44,7 +44,7 @@
 .title{
   height: 10%;
   background-color: rgb(171, 207, 231);
-  margin-bottom: 20px;
+  margin-bottom: 13px;
 }
 
 /* COLUMNS */
@@ -52,14 +52,14 @@
 .sx{
   float: left;
   margin-right: 1%;
-  height: 82%;
+  height: 83%;
   width: 16%;
   background-color: rgb(171, 207, 231);
 }
 
 .center{
   float: left;
-  height: 82%;
+  height: 83%;
   width: 66%;
   background-color: rgb(171, 207, 231);
 }
@@ -67,9 +67,16 @@
 .dx{
   float: right;
   margin-left: 1%;
-  height: 82%;
+  height: 83%;
   width: 16%;
   background-color: rgb(171, 207, 231);
 }
 
+/* FOOTER */
 
+footer{
+margin-top: 5px;
+margin-bottom: 20px;
+height: 60px;
+background-color: rgb(136, 1, 254);
+}
