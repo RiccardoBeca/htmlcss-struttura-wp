@@ -9,3 +9,24 @@
   display: table;
   clear: both;
 }
+
+/* MAIN-WRAPPER */
+
+.wrapper{
+  width: 80%;
+  margin: auto;
+}
+
+
+/* HEADER */
+
+.navbar{
+  height: 100px;
+  background-color:rgb(229, 121, 230) ;
+}
+
+.jumbotron{
+  height: 350px;
+  background-color: rgb(225, 214, 122);
+  margin-top: 20px;
+}
