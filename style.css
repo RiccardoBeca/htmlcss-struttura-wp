@@ -30,3 +30,46 @@
   background-color: rgb(225, 214, 122);
   margin-top: 20px;
 }
+
+/* MAIN */
+
+/* Background */
+
+.background{
+  height: 400px;
+  background-color: rgb(3, 136, 253);
+  margin-top: 20px;
+}
+
+.title{
+  height: 10%;
+  background-color: rgb(171, 207, 231);
+  margin-bottom: 20px;
+}
+
+/* COLUMNS */
+
+.sx{
+  float: left;
+  margin-right: 1%;
+  height: 82%;
+  width: 16%;
+  background-color: rgb(171, 207, 231);
+}
+
+.center{
+  float: left;
+  height: 82%;
+  width: 66%;
+  background-color: rgb(171, 207, 231);
+}
+
+.dx{
+  float: right;
+  margin-left: 1%;
+  height: 82%;
+  width: 16%;
+  background-color: rgb(171, 207, 231);
+}
+
+
