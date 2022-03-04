@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .clearfix::after{
@@ -25,6 +26,10 @@
   background-color:rgb(229, 121, 230) ;
 }
 
+.logo{
+  width: 10%;
+}
+
 .jumbotron{
   height: 350px;
   background-color: rgb(225, 214, 122);
@@ -35,7 +40,7 @@
 
 /* Background */
 
-.background{
+.container{
   height: 400px;
   background-color: rgb(3, 136, 253);
   margin-top: 20px;
@@ -49,33 +54,32 @@
 
 /* COLUMNS */
 
-.sx{
+.col{
   float: left;
+  height: 83%;
+  width: 16%;
+  background-color: rgb(171, 207, 231);
+}
+
+.sx{
   margin-right: 1%;
   height: 83%;
   width: 16%;
-  background-color: rgb(171, 207, 231);
 }
 
 .center{
-  float: left;
   height: 83%;
   width: 66%;
-  background-color: rgb(171, 207, 231);
 }
 
 .dx{
-  float: right;
   margin-left: 1%;
-  height: 83%;
-  width: 16%;
-  background-color: rgb(171, 207, 231);
 }
 
 /* FOOTER */
 
 footer{
-margin-top: 5px;
+margin-top: 10px;
 margin-bottom: 20px;
 height: 60px;
 background-color: rgb(136, 1, 254);
